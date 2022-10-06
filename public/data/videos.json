@@ -1,0 +1,53 @@
+[
+  {
+    "manifestUri": "//storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd",
+    "title": "Star Trek: Angel One",
+    "id": "ewion",
+    "tagline": "New Release!",
+    "poster": "https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/56310f21e4b033d1f5770087/1446055715088/",
+    "qualities": [144, 240, 360, 480, 576],
+    "languages": ["en", "it", "de", "es", "fr"],
+    "subtitles": ["en", "el", "fr", "pt-BR"]
+  },
+  {
+    "manifestUri": "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd",
+    "title": "Afro",
+    "id": "frefre",
+    "tagline": "People Are Watching.",
+    "poster": "https://i.ytimg.com/vi/kSRAbdwWm6M/maxresdefault.jpg",
+    "qualities": [180, 270, 360, 540, 720, 1080],
+    "languages": ["en"],
+    "subtitles": []
+  },
+  {
+    "manifestUri": "https://bitmovin-a.akamaihd.net/content/playhouse-vr/mpds/105560.mpd",
+    "title": "360 Video stream",
+    "id": "360_video",
+    "tagline": "Some 360 video.",
+    "poster": "https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2017/05/htc-link-1.jpg",
+    "qualities": [360, 540, 720, 1080],
+    "languages": ["en"],
+    "subtitles": []
+  },
+  {
+    "manifestUri": "https://storage.googleapis.com/bitmovin-demos/av1/stream_chrome.mpd",
+    "title": "Another Stream",
+    "id": "stream",
+    "tagline": "New Release!",
+    "poster": "https://bitmovin-a.akamaihd.net/webpages/demos/content/av1/poster_tos.jpg",
+    "qualities": [266, 532, 798],
+    "languages": ["en"],
+    "subtitles": []
+  },
+  {
+    "manifestUri": "https://www.france24.com/en/live",
+    "title": "Another Stream",
+    "id": "stream",
+    "tagline": "Yet another test stream",
+    "poster": "https://bitmovin-a.akamaihd.net/webpages/demos/content/av1/poster_tos.jpg",
+    "qualities": [266, 532, 798],
+    "languages": ["en"],
+    "subtitles": []
+
+  } 
+]

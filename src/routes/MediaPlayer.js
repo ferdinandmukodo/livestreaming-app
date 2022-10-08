@@ -19,7 +19,7 @@ const MediaPlayer = ({ match, history }) => {
 
   useEffect(() => {
 
-    // make linter happy
+  
     const videoElement = videoEl.current;
     // attach player to video tag
 

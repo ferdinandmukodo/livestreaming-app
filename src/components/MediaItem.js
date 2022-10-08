@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const MediaItem = ({
   id,
-   onClickDownload,
+  onClickDownload,
   poster,
   tagline,
   title,

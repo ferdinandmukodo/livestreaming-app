@@ -81,8 +81,8 @@ const Nav = ({ routes }) => {
         </div>
       </div>
       {isOnline
-        ? <button type="button" className="btn btn-success" disabled>LogOut</button>
-        : <button type="button" className="btn btn-danger" disabled>LogIn</button>
+        ? <button type="button" className="btn btn-success" disabled>Online</button>
+        : <button type="button" className="btn btn-danger" disabled>Offline</button>
       }
     </nav>
   );

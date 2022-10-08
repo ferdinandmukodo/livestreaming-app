@@ -4,11 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Store } from './Store';
 import LoadingScreen from './components/LoadingScreen';
 import Nav from './components/Nav';
-//import DownloadManager from './routes/DownloadManager';
-import Home from './components/Home';
+import DownloadManager from './routes/DownloadManager';
+import Home from './routes/Home';
 import MediaBrowser from './routes/MediaBrowser';
-import MediaPlayer from './components/MediaPlayer';
-//import Configuration from './routes/Configuration';
+import MediaPlayer from './routes/MediaPlayer';
+import Configuration from './routes/Configuration';
 
 const routes = [
   {
@@ -26,7 +26,7 @@ const routes = [
   {
     exact: true,
     key: 'configuration',
-    label: 'Favourite',
+    label: 'Preferences',
     path: '/configuration',
   },
 ];
@@ -64,21 +64,21 @@ const App = () => {
               exact
               path="/media"
             />
-            {/* <Route
+            <Route
               component={DownloadManager}
               exact
               path="/downloads"
-            /> */}
+            />
             <Route
               component={MediaPlayer}
               exact
               path="/:mode(stream|offline)/:id"
             />
-            {/* <Route
+            <Route
               component={Configuration}
               exact
               path="/configuration"
-            /> */}
+            />
           </Fragment>
         </main>
       </div>

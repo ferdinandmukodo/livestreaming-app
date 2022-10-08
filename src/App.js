@@ -5,9 +5,9 @@ import { Store } from './Store';
 import LoadingScreen from './components/LoadingScreen';
 import Nav from './components/Nav';
 //import DownloadManager from './routes/DownloadManager';
-import Home from './routes/Home';
+import Home from './components/Home';
 import MediaBrowser from './routes/MediaBrowser';
-import MediaPlayer from './routes/MediaPlayer';
+import MediaPlayer from './components/MediaPlayer';
 //import Configuration from './routes/Configuration';
 
 const routes = [

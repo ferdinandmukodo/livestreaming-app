@@ -1,6 +1,6 @@
 import React, { Fragment, useContext, useState } from 'react';
 import { Store } from '../Store';
-import MediaItem from '../components/MediaItem';
+import MediaItem from './components/MediaItem';
 
 const MediaBrowser = ({ history }) => {
   const {
